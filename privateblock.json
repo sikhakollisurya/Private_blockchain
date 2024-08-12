@@ -1,0 +1,30 @@
+{
+
+    "_comment": "chain id should be unique and should not match with any existing public block chian chain id. check this at https://chainlist.org/",
+
+    "config":{
+        
+        "chainId":98765,
+        "homesteadBlock": 0,
+        "eip150Block": 0,
+        "eip155Block": 0,
+        "eip158Block": 0,
+        "byzantiumBlock": 0,
+        "constantinopleBlock": 0,
+        "petersburgBlock": 0,
+        "istanbulBlock": 0,
+        "berlinBlock": 0,
+        "clique": {
+            "period": 5,
+            "epoch": 30000
+        }
+    },
+
+    "difficulty": "1",
+    "gasLimit": "8000000",
+    "extradata": "0x0000000000000000000000000000000000000000000000000000000000000000E68a4257dfEE5066a159f32d7F0C4506c51dF32f0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "alloc": {
+        "E68a4257dfEE5066a159f32d7F0C4506c51dF32f": { "balance": "5000000000000000000" },
+        "7023A770Df03cC50a8715610c8886B1DcB1afb80": { "balance": "3000000000000000000" }
+    }
+}
